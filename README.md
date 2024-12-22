@@ -25,6 +25,7 @@ This project is designed to detect the pixel size of pixel art images sourced fr
    - `input_path`: Path to an image, GIF, or directory containing images.
    - `path_to_model.pth`: Path to the trained PSDN model file (default is `./psdn_model.pth`).
    - `output_directory`: Directory to save the processed images (default is `./output`).
+   - `dest_pixel_size`: Size of the pixel block after resize (default is `1`).
 
 3. **Examples**:
    - Process a single image:
@@ -69,6 +70,7 @@ This project is designed to detect the pixel size of pixel art images sourced fr
    - `input_path`: 输入路径，可以是单个图像、GIF 或包含图像的目录。
    - `path_to_model.pth`: 训练好的 PSDN 模型文件路径（默认是 `./psdn_model.pth`）。
    - `output_directory`: 保存处理后图像的目录（默认是 `./output`）。
+   - `dest_pixel_size`: 重采样后的像素点大小（默认是`1`）。
 
 3. **示例**：
    - 处理单个图像：
