@@ -19,7 +19,7 @@ This project is designed to detect the pixel size of pixel art images sourced fr
 
 2. **Run the tool**:
    ```bash
-   python downsample.py input_path --model path_to_model.pth --output output_directory
+   python main.py input_path --model path_to_model.pth --output output_directory --dest_pixel_size dest_pixel_size
    ```
 
    - `input_path`: Path to an image, GIF, or directory containing images.
@@ -64,7 +64,7 @@ This project is designed to detect the pixel size of pixel art images sourced fr
 
 2. **运行工具**：
    ```bash
-   python downsample.py input_path --model path_to_model.pth --output output_directory
+   python main.py input_path --model path_to_model.pth --output output_directory --dest_pixel_size dest_pixel_size
    ```
 
    - `input_path`: 输入路径，可以是单个图像、GIF 或包含图像的目录。
